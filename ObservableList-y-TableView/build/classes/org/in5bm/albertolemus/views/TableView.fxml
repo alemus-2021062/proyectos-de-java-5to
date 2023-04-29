@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CCDEEF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.in5bm.albertolemus.controllers.TableViewController">
+   <children>
+      <TableView fx:id="tblRegistro" layoutX="168.0" layoutY="74.0" prefHeight="252.0" prefWidth="262.0">
+        <columns>
+          <TableColumn fx:id="colNombre" prefWidth="104.0" text="Nombre" />
+          <TableColumn fx:id="colApellido" prefWidth="87.199951171875" text="Apellido" />
+            <TableColumn fx:id="colEdad" prefWidth="70.39999999999998" text="Edad" />
+        </columns>
+      </TableView>
+      <Label layoutX="139.0" layoutY="25.0" text="TABLEVIEW DEL OBSERVABLELIST">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

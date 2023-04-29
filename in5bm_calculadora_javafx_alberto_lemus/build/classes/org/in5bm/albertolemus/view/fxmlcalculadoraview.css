@@ -1,0 +1,75 @@
+/*
+ * Empty Stylesheet file.
+ * @author Alberto Moises Gerardo Lemus Alvarado
+ * @Carne 2021062
+ * @CodigoTecnico IN5BM
+ */
+
+.mainFxmlClass {
+
+}
+
+.botones-numericos{
+    -fx-background-color:#FFCCCC;
+    -fx-Font-weight:bold;
+    -fx-font-family:"Slabo";
+}
+
+.botones-operaciones:hover{
+    -fx-text-file:blue;
+    -fx-background-color:#FFCCCC;
+    -fx-font-size:30;
+}
+
+.botones-acciones:hover{
+    -fx-font-size:30;
+}
+
+#AnchorPane{
+    -fx-background-color:burlywood;
+}
+
+#boton-igual{
+    -fx-background-color:lightgreen;
+    -fx-background-radius:20 0 20 0;
+}
+
+#boton-ac{
+    -fx-text-fill:#ffffff;
+    -fx-background-radius:25 0 25 0;
+    -fx-background-color:red;
+    -fx-Font-weight:bold;
+}
+
+#boton-dell:hover{
+    -fx-text-fill:#ff0000;
+}
+
+#label-pantalla{
+    -fx-background-color:BDC3C7;
+    -fx-background-radius:10 10 10 10;
+}
+
+#boton-inverso-multiplicativo:hover{
+    -fx-font-family:Arial;
+    -fx-text-file:blue;
+    -fx-background-color:#FFCCCC;
+    -fx-font-size:23;
+}
+
+#boton-potenciacion{
+    -fx-text-fill:purple;
+}
+
+#boton-raiz-cuadrada{
+    -fx-text-fill:purple;
+}
+
+
+
+
+
+
+
+
+
